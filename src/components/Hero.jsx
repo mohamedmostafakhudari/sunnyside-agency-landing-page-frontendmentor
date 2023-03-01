@@ -13,9 +13,9 @@ export default function Hero({ children }) {
     <header className="min-h-[80vh]" style={headerBackgroundImage}>
       <div className="container mx-auto px-4 md:p-0">
         {children}
-        <div className="text-white uppercase text-5xl font-fraunces text-center leading-tight font-extrabold tracking-widest relative mt-8">
+        <div className="text-white uppercase text-4xl font-fraunces text-center leading-tight font-extrabold tracking-widest relative mt-8 md:text-5xl">
           we are creatives
-          <div className="absolute left-1/2 -translate-x-1/2 top-[150%] topBottomAnimation md:top-[270%]">
+          <div className="absolute left-1/2 -translate-x-1/2 top-[20vh] topBottomAnimation md:top-[15vh]">
             <img src="./assets/images/icon-arrow-down.svg" alt="arrowDown" />
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function Nav() {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className="text-lg py-10 relative text-white">
-      <div className="container mx-auto flex justify-between">
+      <div className="container mx-auto flex justify-between items-center">
         <div className="w-40">
           <img src="./assets/images/logo.svg" alt="logo" className="w-full" />
         </div>
